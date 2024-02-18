@@ -32,6 +32,6 @@ func RunServers(lc fx.Lifecycle, log logger.ILogger, e *echo.Echo, ctx context.C
 			return nil
 		},
 	})
-
-	return nil
+	
+	retun nil
 }
