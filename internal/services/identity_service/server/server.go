@@ -35,7 +35,7 @@ func RunServers(lc fx.Lifecycle, log logger.ILogger, e *echo.Echo, grpcServer *g
 			return nil
 		},
 		OnStop: func(_ context.Context) error {
-			log.Infof("all servers shutdown gracefully...")
+			log.Infof("all servers shutdown gracefully, goodbye...")
 			return nil
 		},
 	})
