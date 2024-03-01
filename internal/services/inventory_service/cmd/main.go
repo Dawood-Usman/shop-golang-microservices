@@ -56,4 +56,5 @@ func main() {
 			fx.Invoke(configurations.ConfigConsumers),
 		),
 	).Run()
+	//Just for test
 }
