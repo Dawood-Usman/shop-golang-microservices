@@ -51,4 +51,5 @@ func main() {
 			fx.Invoke(configurations.ConfigProductsMediator),
 		),
 	).Run()
+	//just for test
 }
